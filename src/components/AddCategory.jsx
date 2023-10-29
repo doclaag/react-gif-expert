@@ -21,7 +21,7 @@ export const AddCategory = ({ onNewCategory }) => {
   };
 
   return (
-    <form onSubmit={onSubmit} className="mb-4 bg-slate-800 rounded-md p-4">
+    <form onSubmit={onSubmit} className="mb-4 bg-slate-800 rounded-md p-4" aria-label='form'>
       <input
         type="text"
         placeholder="Buscar Gifs..."
